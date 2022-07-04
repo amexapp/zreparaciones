@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block navbar %} 
+{% include 'pages/components/navbar.html' %}
+{% endblock navbar %}
+
+ <!--Left Col-->
+{% block left_sidebar %}
+{% include 'pages/components/left.html' %}
+{% endblock left_sidebar %}
+ <!--Right Col-->
+{% block right_sidebar %}
+{% include 'pages/components/right.html' %}
+{% endblock right_sidebar %}
+     <!--FOOTER-->
+ {% block footer %} {% endblock footer %}
